@@ -1,0 +1,175 @@
+/* chỉnh css all */
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* a {
+    color: #ff6b81;
+    text-decoration: none;
+} */
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.food-seach {
+    width: 100%;
+    background-image: url('../image/bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.img-responsive {
+    width: 100%;
+}
+
+.img-curve {
+    border-radius: 10px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.mycolor {
+    background-color: #ff6b81;
+    color: white;
+    cursor: pointer;
+}
+
+.nav-item .nav-link {
+    color: #ff6b81 !important;
+}
+
+.img-seach {
+    width: 100%;
+    height: 250px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.row>* {
+    flex-shrink: 0;
+    max-width: 100%;
+    width: 53%;
+}
+
+.container .row {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, .85rem);
+    padding-left: var(--bs-gutter-x, .85rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.btn-outline-success {
+    color: white;
+    border-color: #ff6b81;
+    background-color: #ff6b81;
+}
+
+
+/* css for explore */
+
+.categoriesp {
+    padding: 3% 0;
+}
+
+.box-3 {
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/*css for food menu*/
+
+.food-menu {
+    background-color: #ececec;
+    padding: 5%;
+}
+
+.food-menu-box {
+    /* width: 48%; */
+    margin: 1%;
+    padding: 2%;
+    /* float: left; */
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img {
+    width: 20%;
+    /* float: left; */
+}
+
+.food-menu-desc {
+    width: 70%;
+    /* float: left; */
+    margin-left: 8%;
+}
+
+.food-price {
+    font-size: 19.2px;
+    margin: 2% 0;
+}
+
+.food-detail {
+    font-size: 10px;
+    color: #747d8c;
+}
+
+.text-decoration-none {
+    color: #ff6b81;
+    margin-top: 24px;
+}
+
+
+/*css for Sociall  */
+
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+
+/* manage Users */
+
+.bg-light {
+    background-color: #f8f9fa;
+}
+
+.table {
+    width: 100%;
+}
+
+.next {
+    color: white;
+    background-color: red;
+}
